@@ -15,10 +15,10 @@
 
 
 struct Student {
-    int age;
-    std::string first_name;
-    std::string last_name;
-    int standard;
+    int age = 0;
+    std::string first_name = nullptr;
+    std::string last_name = nullptr;
+    int standard = 0;
 };
 
 
